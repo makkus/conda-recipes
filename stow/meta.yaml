@@ -1,0 +1,22 @@
+package:
+   name: stow
+   version: "2.2.2"
+
+source:
+   url: http://ftp.gnu.org/gnu/stow/stow-2.2.2.tar.gz
+   md5: 8712d22b7abe26b1bef0e22818981248
+   sha1: 4b4c42138979c03447c9134b80596e2ec961720b
+   sha256: e2f77649301b215b9adbc2f074523bedebad366812690b9dc94457af5cf273df
+
+build:
+   number: 2
+
+requirements:
+  build:
+    - perl
+  run:
+    - perl
+
+about:
+   home: https://www.gnu.org/s/stow
+   license: GPL2
